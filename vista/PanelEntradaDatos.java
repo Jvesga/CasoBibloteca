@@ -9,18 +9,14 @@ import javax.swing.border.TitledBorder;
 
 public class PanelEntradaDatos extends JPanel
 {
-    //----------------------
-    // Atributos
-    //----------------------
+    
     private JLabel lbLibros;
     private JLabel lbColeccion;
     public JComboBox cbLibros;
     public JComboBox cbColeccion;
 
 
-    //----------------------
-    // Metodos
-    //----------------------
+    
     public PanelEntradaDatos()
     {
         //Definición del contenedor del panel

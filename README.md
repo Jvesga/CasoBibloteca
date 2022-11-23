@@ -4,6 +4,8 @@ Se necesita escribir las clases necesarias y una aplicación para registrar la i
 
 Analisis:
 
+se debe crear una clase madre que conoceremos como libro la cual va a tener algunos atributos importantes para poder crear el programa que guarde todo lo que nos piden algun ejemplo seria el nombre del libro y el autor pero tambien debemos hacer que nuestro programa pueda guardar los libros dependiendo si son de coleccion o son libros comunes que son cada uno independiente. Un ejemplo de lo que he escrito es lo que vemos a continuacion:
+
 -Biblioteca
 -Libro
     -Nombre.
@@ -11,6 +13,7 @@ Analisis:
     -AñoEdición.
     -EdiciónLujo.
 -Colecciónes
+    -Ediciones de lujo que hacen parte de colecciones.
 
 
 

@@ -9,9 +9,7 @@ import java.awt.event.ActionListener;
 
 public class DialogoAgregarAColeccion extends JDialog
 {
-        //----------------------
-    // Atributos
-    //----------------------
+  
     private JLabel lbAutor;
     private JLabel lbNombreLib;
     private JTextField tfNombreLib;
@@ -20,9 +18,7 @@ public class DialogoAgregarAColeccion extends JDialog
     private JTextField tfNombreCol;
     private JButton btAgregar;
 
-    //----------------------
-    // Metodos
-    //----------------------
+   
     public DialogoAgregarAColeccion()
     {
         this.setLayout(null);
@@ -64,7 +60,6 @@ public class DialogoAgregarAColeccion extends JDialog
         this.setVisible(true);
     }
 
-    //Metodos de acceso
     public String getPrecioCarro()
     {
         return tfAutor.getText();

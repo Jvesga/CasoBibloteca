@@ -9,18 +9,14 @@ import java.awt.event.ActionListener;
 
 public class PanelOperaciones extends JPanel
 {
-    //----------------------
-    // Atributos
-    //----------------------
+ 
     private JButton btAgregarLibro;
     private JButton btAgregarColeccion;
     private JButton btSalir;
 
-    //----------------------
-    // Metodos
-    //----------------------
+    
 
-    //Constructor
+    
     public PanelOperaciones()
     {
         this.setLayout(null);

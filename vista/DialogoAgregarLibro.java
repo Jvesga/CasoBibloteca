@@ -3,24 +3,19 @@ package CasoBiblioteca.vista;
 import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
-import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import java.awt.event.ActionListener;
 
 public class DialogoAgregarLibro extends JDialog
 {
-    //----------------------
-    // Atributos
-    //----------------------
+    
     private JLabel lbAutor;
     private JLabel lbNombreLib;
     private JTextField tfNombreLib;
     private JTextField tfAutor;
     private JButton btAgregar;
 
-    //----------------------
-    // Metodos
-    //----------------------
+   
     public DialogoAgregarLibro()
     {
         this.setLayout(null);
@@ -46,7 +41,7 @@ public class DialogoAgregarLibro extends JDialog
         btAgregar.setActionCommand("agregar2");
         this.add(btAgregar);
 
-        //Caracteristicas de la ventana
+        
         this.setTitle("Vender Carro");
         this.setSize(400,300);
         this.setLocationRelativeTo(null);
@@ -54,7 +49,7 @@ public class DialogoAgregarLibro extends JDialog
         this.setVisible(true);
     }
 
-    //Metodos de acceso
+    
     public String getPrecioCarro()
     {
         return tfAutor.getText();
