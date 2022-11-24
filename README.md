@@ -16,4 +16,6 @@ se debe crear una clase madre que conoceremos como libro la cual va a tener algu
     -Ediciones de lujo que hacen parte de colecciones.
 
 
+![image](https://user-images.githubusercontent.com/102545608/203782195-272e49a2-0760-440d-a6c1-0f59dcbc1fe4.png)
+![image](https://user-images.githubusercontent.com/102545608/203782327-a63cdde1-e46e-4b64-ac1e-c92297473a37.png)
 
